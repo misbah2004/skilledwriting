@@ -111,7 +111,7 @@ const FeatureSection = () => {
                     <li>Sample Provisions</li>
                   </p>
                   <div className="about-footer-btn ">
-                  <a href="#" className="btn-default ordernow2">
+                  <a href="#" className="btn-default ordernowbtn">
                     Order Now
                   </a>
                 </div>

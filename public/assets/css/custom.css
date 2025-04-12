@@ -188,6 +188,8 @@ body{
 .row{
     margin-right: -15px;
     margin-left: -15px;
+	display: flex;
+	justify-content: center;
 }
 
 .row > *{
@@ -384,7 +386,7 @@ body{
     margin-bottom: 20px;
 }
 
-.section-title h3::before{
+/* .section-title h3::before{
 	content: '';
     position: absolute;
     top: 50%;
@@ -396,9 +398,10 @@ body{
     background-size: cover;
     width: 20px;
     height: 20px;
-}
+} */
 
 .section-title h1{
+	text-align: center;
 	font-size: 68px;
 	font-weight: 700;
 	color: var(--white-color);
@@ -422,6 +425,7 @@ body{
 }
 
 .section-title p{
+	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 0;
 }
@@ -652,10 +656,10 @@ header.main-header .header-sticky.active{
 	opacity: 0;
 	transform: scaleY(0.8);
 	transform-origin: top;
-	padding: 0;
+	/* padding: 20px; */
 	margin: 0;
 	list-style: none;
-	width: 230px;
+	width: 600px;
 	border-radius: 20px;
 	position: absolute;
 	left: 0;
@@ -831,6 +835,28 @@ header.main-header .header-sticky.active{
     transform: translateY(-52%) rotate(-180deg);
 	color: var(--primary-color);
 }
+.mega-dropdown {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+	gap: 10px;
+	background: white;
+	padding: 20px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	width: 800px; /* adjust as needed */
+	box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s ease;
+  }
+  
+  .nav-item.dropdown:hover .mega-dropdown {
+	visibility: visible;
+	opacity: 1;
+  }
+  
 
 /************************************/
 /***        04. Hero css	      ***/
@@ -946,6 +972,7 @@ header.main-header .header-sticky.active{
 
 .hero-content-body{
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
 	gap: 40px;
@@ -1439,7 +1466,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-feature{
-	padding: 100px 0;
+	padding: 0px 0;
 }
 
 .feature-image figure{
@@ -1573,7 +1600,7 @@ header.main-header .header-sticky.active{
 
 .our-projects{
 	background: var(--secondary-color);
-	padding: 100px 0;
+	padding: 0 0;
 }
 
 .projects-list{
@@ -1935,7 +1962,7 @@ header.main-header .header-sticky.active{
 	gap: 30px;
 	flex-wrap: wrap;
 	border-top: 1px solid var(--divider-color);
-	margin-top: 80px;
+	margin-top: 0px;
 	padding-top: 80px;
 }
 
@@ -2692,7 +2719,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-faqs{
-	padding: 100px 0;
+	padding: 20px 0;
 }
 
 .our-faqs.home-our-faqs{
@@ -2855,7 +2882,7 @@ header.main-header .header-sticky.active{
 .post-item-body h2{
 	font-size: 20px;
 	line-height: 1.4em;
-	color: var(--white-color);
+	color: black;
 }
 
 .post-item-body h2 a{
@@ -7488,5 +7515,5 @@ header.main-header .header-sticky.active{
 	}
 }
 a.btn-default.ordernow2{
-	margin-top: 10px;
+	margin-top: 15px;
 }

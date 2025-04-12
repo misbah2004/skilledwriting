@@ -2,178 +2,77 @@ import React from 'react'
 
 const PricingPlanSection = () => {
   return (
-    <div>
-      <>
-  {/* Our Pricing Section Start */}
-  <div className="our-pricing">
+    <>
+  {/* Our Security Section Start */}
+  <div className="our-security">
     <div className="container">
-      <div className="row section-row">
-        <div className="col-lg-12">
-          {/* Section Title Start */}
-          <div className="section-title">
-            <h3 className="wow fadeInUp">pricing plan</h3>
-            <h2
-              className="wow fadeInUp"
-              data-wow-delay="0.2s"
-              data-cursor="-opaque"
-            >
-              Affordable cyber security <span>plans for every need</span>
-            </h2>
-          </div>
-          {/* Section Title End */}
-        </div>
-      </div>
       <div className="row">
-        <div className="col-lg-4 col-md-6">
-          {/* Pricing Box Start */}
-          <div className="pricing-item wow fadeInUp">
-            {/* Pricing Header Start */}
-            <div className="pricing-header">
-              <h3>Basic plan</h3>
-              <h2>
-                <sup>$</sup>29<sub>/per month</sub>
+        <div className="col-lg-6">
+          {/* Our Security Content Start */}
+          <div className="our-security-content">
+            {/* Section Title Start */}
+            <div className="section-title">
+              {/* <h3 className="wow fadeInUp">Our security</h3> */}
+              <h2
+                className="wow fadeInUp"
+                data-wow-delay="0.2s"
+                data-cursor="-opaque"
+              >
+              <span>Review & Opinion ....</span>
               </h2>
-              <p>Essential protection for digital safety.</p>
-              <div className="icon-box">
-                <img src="/assets/images/icon-pricing-1.svg" alt="" />
-              </div>
-            </div>
-            {/* Pricing Header End */}
-            {/* Pricing Body Start */}
-            <div className="pricing-body">
-              {/* Pricing List Start */}
-              <div className="pricing-list">
-                <ul>
-                  <li>Anti-virus protection service</li>
-                  <li>Reliable personal data protection</li>
-                  <li>Advertisements blocking</li>
-                  <li>1 device using</li>
-                </ul>
-              </div>
-              {/* Pricing List End */}
-              {/* Pricing Button Start */}
-              <div className="pricing-btn">
-                <a href="#" className="btn-default">
-                  get started
-                </a>
-              </div>
-              {/* Pricing Button End */}
-            </div>
-            {/* Pricing Body End */}
+            </div>           
+            {/* Security Content Box End */}
           </div>
-          {/* Pricing Box End */}
+          {/* Our Security Content End */}
         </div>
-        <div className="col-lg-4 col-md-6">
-          {/* Pricing Box Start */}
-          <div
-            className="pricing-item highlighted-box wow fadeInUp"
-            data-wow-delay="0.2s"
-          >
-            {/* Pricing Header Start */}
-            <div className="pricing-header">
-              <h3>Standard plan</h3>
-              <h2>
-                <sup>$</sup>39<sub>/per month</sub>
-              </h2>
-              <p>Essential protection for digital safety.</p>
-              <div className="icon-box">
-                <img src="/assets/images/icon-pricing-2.svg" alt="" />
-              </div>
-            </div>
-            {/* Pricing Header End */}
-            {/* Pricing Body Start */}
-            <div className="pricing-body">
-              {/* Pricing List Start */}
-              <div className="pricing-list">
-                <ul>
-                  <li>Anti-virus protection service</li>
-                  <li>Reliable personal data protection</li>
-                  <li>Advertisements blocking</li>
-                  <li>1 device using</li>
-                </ul>
-              </div>
-              {/* Pricing List End */}
-              {/* Pricing Button Start */}
-              <div className="pricing-btn">
-                <a href="#" className="btn-default btn-highlighted">
-                  get started
-                </a>
-              </div>
-              {/* Pricing Button End */}
-            </div>
-            {/* Pricing Body End */}
-          </div>
-          {/* Pricing Box End */}
-        </div>
-        <div className="col-lg-4 col-md-6">
-          {/* Pricing Box Start */}
-          <div className="pricing-item wow fadeInUp" data-wow-delay="0.4s">
-            {/* Pricing Header Start */}
-            <div className="pricing-header">
-              <h3>Premium plan</h3>
-              <h2>
-                <sup>$</sup>49<sub>/per month</sub>
-              </h2>
-              <p>Essential protection for digital safety.</p>
-              <div className="icon-box">
-                <img src="/assets/images/icon-pricing-3.svg" alt="" />
-              </div>
-            </div>
-            {/* Pricing Header End */}
-            {/* Pricing Body Start */}
-            <div className="pricing-body">
-              {/* Pricing List Start */}
-              <div className="pricing-list">
-                <ul>
-                  <li>Anti-virus protection service</li>
-                  <li>Reliable personal data protection</li>
-                  <li>Advertisements blocking</li>
-                  <li>1 device using</li>
-                </ul>
-              </div>
-              {/* Pricing List End */}
-              {/* Pricing Button Start */}
-              <div className="pricing-btn">
-                <a href="#" className="btn-default">
-                  get started
-                </a>
-              </div>
-              {/* Pricing Button End */}
-            </div>
-            {/* Pricing Body End */}
-          </div>
-          {/* Pricing Box End */}
+        <div className="col-lg-6">
+          {/* Our Security Image Content Start */}
+          
+          {/* Our Security Image Content End */}
         </div>
         <div className="col-lg-12">
-          {/* Pricing Benifit List Start */}
-          <div
-            className="pricing-benefit-list wow fadeInUp"
-            data-wow-delay="0.6s"
-          >
-            <ul>
-              <li>
-                <img src="/assets/images/icon-pricing-benefit-1.svg" alt="" />
-                Get 30 day free trial
-              </li>
-              <li>
-                <img src="/assets/images/icon-pricing-benefit-2.svg" alt="" />
-                No any hidden fees pay
-              </li>
-              <li>
-                <img src="/assets/images/icon-pricing-benefit-3.svg" alt="" />
-                You can cancel anytime{" "}
-              </li>
-            </ul>
+          {/* Security List Start */}
+          <div className="security-list">
+            {/* Security List Item Start */}
+            <div className="security-list-item wow fadeInUp">
+              <h3>Essay writing</h3>
+              <p>
+              Wow! Incredible services.  I must say their experts are professional and very cooperative. Due to them I can now write amazing essays.
+              </p>
+            </div>
+            {/* Security List Item End */}
+            {/* Security List Item Start */}
+            <div
+              className="security-list-item wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <h3>Presentation Writing</h3>
+              <p>
+              Had the best online learning experience! The Experts Writinged me in making my presentation and also provided smart tips that caused me to score highest marks in the class.
+              </p>
+            </div>
+            {/* Security List Item End */}
+            {/* Security List Item Start */}
+            <div
+              className="security-list-item wow fadeInUp"
+              data-wow-delay="0.4s"
+            >
+              <h3> Lab Report writing</h3>
+              <p>
+              I must say they are the best place to seek Writing. Because of them I was able to submit an excellent lab report. Thank You.
+              </p>
+            </div>
+            {/* Security List Item End */}
           </div>
-          {/* Pricing Benifit List End */}
+          {/* Security List End */}
         </div>
       </div>
     </div>
   </div>
-  {/* Our Pricing Section End */}
+  {/* Our Security Section End */}
 </>
 
-    </div>
+
   )
 }
 

@@ -1,213 +1,114 @@
-import React from 'react'
-import { FaFacebookF, FaInstagram } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
+import React from 'react';
+import OwlCarousel from 'react-owl-carousel';
+import { FaFacebookF, FaInstagram, FaXTwitter } from 'react-icons/fa6';
 
-const TeamSection = () => {
+const universityCards = [
+  {
+    src: "/assets/images/imageone.jpg",
+    title: "Kennesaw State University"
+  },
+  {
+    src: "/assets/images/imagetwo.jpg",
+    title: "Duke University"
+  },
+  {
+    src: "/assets/images/imagethree.webp",
+    title: "Central Michigan University"
+  },
+  {
+    src: "/assets/images/victoriauni.webp",
+    title: "Victoria University"
+  },
+  {
+    src: "/assets/images/notheranuni.jpg",
+    title: "Northern Illinois University"
+  },
+  {
+    src: "/assets/images/californiauni.jpg",
+    title: "University of California"
+  },
+  {
+    src: "/assets/images/miamiuni.jpg",
+    title: "Miami University"
+  },
+  {
+    src: "/assets/images/oxforduni.jpg",
+    title: "Oxford University"
+  },
+  {
+    src: "/assets/images/chicagouni.jpg",
+    title: "The University of Chicago"
+  },
+  {
+    src: "/assets/images/georgia.webp",
+    title: "University of Georgia"
+  }
+];
+
+
+const options = {
+  loop: true,
+  margin: 10,
+  responsiveClass: true,
+  autoplay: true,
+  dots: true,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    600: {
+      items: 2,
+      nav: false
+    },
+    1000: {
+      items: 3,
+      nav: true,
+      loop: false
+    }
+  }
+};
+
+const OurTeam = () => {
   return (
-    <>
-  {/* Our Team Section Start */}
-  <div className="our-team">
-    <div className="container">
-      <div className="row section-row">
-        <div className="col-lg-12">
-          {/* Section Title Start */}
-          <div className="section-title dark-section">
-            <h3 className="wow fadeInUp">Expert team</h3>
-            <h2
-              className="wow fadeInUp"
-              data-wow-delay="0.2s"
-              data-cursor="-opaque"
-            >
-              Our expert team member
-            </h2>
-          </div>
-          {/* Section Title End */}
+    <div className="our-team">
+      <div className="container">
+        <div className="section-title dark-section text-center">
+          <h3>We Are The Most Trusted Tuition Hub In the World.</h3>
+          <h2>
+            Students with Our Hard Core Efforts Are Now Studying in World’s Top Universities.
+          </h2>
+          <h3>
+            Skilled writing is recognized as the best place to learn and grow. Until now, we have guided countless students to build their careers. Hire us now and shape your career the way you want!
+          </h3>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-3 col-md-6">
-          {/* Team Item Start */}
-          <div className="team-item wow fadeInUp">
-            {/* Team Image Start */}
-            <div className="team-image">
-              <a href="#" data-cursor-text="View">
-                <figure className="image-anime">
-                  <img src="/assets/images/team-1.jpg" alt="" />
-                </figure>
-              </a>
-              {/* Team Social Icon Start */}
-              <div className="team-social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <FaXTwitter/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaFacebookF/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaInstagram />
-                    </a>
-                  </li>
-                </ul>
+
+        <OwlCarousel className="owl-theme" {...options}>
+          {universityCards?.map((member, index) => (
+            <div className="team-item" key={index}>
+              <div className="team-image">
+                <a href="#">
+                  <figure className="image-anime">
+                    <img src={member.src} alt={member.title} />
+                  </figure>
+                </a>
+                <div className="team-social-icon">
+                  {/* <ul>
+                    <li><a href="#"><FaXTwitter /></a></li>
+                    <li><a href="#"><FaFacebookF /></a></li>
+                    <li><a href="#"><FaInstagram /></a></li>
+                  </ul> */}
+                </div>
               </div>
-              {/* Team Social Icon End */}
-            </div>
-            {/* Team Image End */}
-            {/* Team Content Start */}
-            <div className="team-content">
-              <h3>
-                <a href="#">michael johnson</a>
-              </h3>
-              <p>security officer</p>
-            </div>
-            {/* Team Content End */}
-          </div>
-          {/* Team Item End */}
-        </div>
-        <div className="col-lg-3 col-md-6">
-          {/* Team Item Start */}
-          <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-            {/* Team Image Start */}
-            <div className="team-image">
-              <a href="#" data-cursor-text="View">
-                <figure className="image-anime">
-                  <img src="/assets/images/team-2.jpg" alt="" />
-                </figure>
-              </a>
-              {/* Team Social Icon Start */}
-              <div className="team-social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <FaXTwitter/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaFacebookF/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaInstagram />
-                    </a>
-                  </li>
-                </ul>
+              <div className="team-content">
+                <h3><a href="#">{member.title}</a></h3>
               </div>
-              {/* Team Social Icon End */}
             </div>
-            {/* Team Image End */}
-            {/* Team Content Start */}
-            <div className="team-content">
-              <h3>
-                <a href="#">sophia carter</a>
-              </h3>
-              <p>cybersecurity analyst</p>
-            </div>
-            {/* Team Content End */}
-          </div>
-          {/* Team Item End */}
-        </div>
-        <div className="col-lg-3 col-md-6">
-          {/* Team Item Start */}
-          <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
-            {/* Team Image Start */}
-            <div className="team-image">
-              <a href="#" data-cursor-text="View">
-                <figure className="image-anime">
-                  <img src="/assets/images/team-3.jpg" alt="" />
-                </figure>
-              </a>
-              {/* Team Social Icon Start */}
-              <div className="team-social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <FaXTwitter/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaFacebookF/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaInstagram />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/* Team Social Icon End */}
-            </div>
-            {/* Team Image End */}
-            {/* Team Content Start */}
-            <div className="team-content">
-              <h3>
-                <a href="#">michael brown</a>
-              </h3>
-              <p>incident response</p>
-            </div>
-            {/* Team Content End */}
-          </div>
-          {/* Team Item End */}
-        </div>
-        <div className="col-lg-3 col-md-6">
-          {/* Team Item Start */}
-          <div className="team-item wow fadeInUp" data-wow-delay="0.6s">
-            {/* Team Image Start */}
-            <div className="team-image">
-              <a href="#" data-cursor-text="View">
-                <figure className="image-anime">
-                  <img src="/assets/images/team-4.jpg" alt="" />
-                </figure>
-              </a>
-              {/* Team Social Icon Start */}
-              <div className="team-social-icon">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <FaXTwitter/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaFacebookF/>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaInstagram />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/* Team Social Icon End */}
-            </div>
-            {/* Team Image End */}
-            {/* Team Content Start */}
-            <div className="team-content">
-              <h3>
-                <a href="#">isabella moore</a>
-              </h3>
-              <p>security awareness</p>
-            </div>
-            {/* Team Content End */}
-          </div>
-          {/* Team Item End */}
-        </div>
+          ))}
+        </OwlCarousel>
       </div>
     </div>
-  </div>
-  {/* Our Team Section End */}
-</>
+  );
+};
 
-  )
-}
-
-export default TeamSection
+export default OurTeam;

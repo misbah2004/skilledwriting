@@ -1,155 +1,91 @@
-import React from "react";
-import { FaArrowAltCircleRight, FaChevronDown, FaWhatsapp } from "react-icons/fa";
+import React, { useState } from "react";
+import {
+  FaArrowAltCircleRight,
+  FaChevronDown,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { servicesData } from "../../../public/assets/js/servicesdata";
+import { Link } from "react-router";
 
 const Header = () => {
+  const [show , setShow]=useState(false)
   return (
     <>
       <header className="main-header">
         <div className="header-sticky">
           <nav className="navbar navbar-expand-lg">
             <div className="container">
-              {/* Logo Start */}
-              <a className="navbar-brand" href="index-2.html">
+              <Link className="navbar-brand" to="/">
                 <img src="/assets/images/logo.png" alt="Logo" />
-              </a>
-              {/* Logo End */}
-              {/* Main Menu Start */}
+              </Link>
+
               <div className="collapse navbar-collapse main-menu">
                 <div className="nav-menu-wrapper">
                   <ul className="navbar-nav mr-auto" id="menu">
                     <li className="nav-item ">
-                      <a className="nav-link" href="index-2.html">
-                        Home <FaChevronDown/>
-                      </a>
-                      {/* <ul>
-                        <li className="nav-item">
-                          <a className="nav-link" href="index.html">
-                            Home - Image
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="index-video.html">
-                            Home - Video
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="index-slider.html">
-                            Home - Slider
-                          </a>
-                        </li>
-                      </ul> */}
+                      <Link className="nav-link" to="/">
+                        Home 
+                      </Link>
                     </li>
-                    {/* <li className="nav-item">
-                      <a className="nav-link" href="about.html">
-                        About Us
-                      </a>
-                    </li> */}
-                    {/* <li className="nav-item">
-                      <a className="nav-link" href="services.html">
-                        Services
-                      </a>
-                    </li> */}
-                    <li className="nav-item ">
-                      <a className="nav-link" href="#">
-                        services <FaChevronDown/>
-                      </a>
-                      <ul>
-                        <li className="nav-item">
-                          <a className="nav-link" href="service-single.html">
-                            Service Details
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="blog-single.html">
-                            Blog Details
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="projects.html">
-                            Projects
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="project-single.html">
-                            Project Details
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="team.html">
-                            Our Team
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="team-single.html">
-                            Team Details
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="pricing.html">
-                            Pricing
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="testimonials.html">
-                            Testimonials
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="image-gallery.html">
-                            Image Gallery
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="video-gallery.html">
-                            Video Gallery
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="faqs.html">
-                            FAQs
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="404.html">
-                            404
-                          </a>
-                        </li>
+
+                    <li className="nav-item dropdown">
+                      <Link className="nav-link" to="#">
+                        Services <FaChevronDown />
+                      </Link>
+                      <ul className="mega-dropdown">
+                        {Object.keys(servicesData).map((title) => (
+                          <li className="nav-item" key={title}>
+                            <Link
+                              className="nav-link"
+                              to={`/services/${title}`}
+                            >
+                              {title}
+                            </Link>
+                          </li>
+                        ))}
+
+                        {/* You can add more items here */}
                       </ul>
                     </li>
+
                     <li className="nav-item">
-                      <a className="nav-link" href="contact.html">
+                      <Link className="nav-link" to="">
                         Contact Us
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="blog.html">
+                      <Link className="nav-link" to="/">
                         Blog
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="blog.html">
+                      <Link className="nav-link" to="/">
                         FAQs
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 {/* Header Btn Start */}
                 <div className="header-btn">
-                  <a href="https://wa.me/+447554405359?text=Referral%20link%20website%3A%20www.skilledWritings.org%22" className="btn-default">
+                  <Link
+                    to="https://wa.me/+447554405359?text=Referral%20link%20website%3A%20www.skilledWritings.org%22"
+                    className="btn-default"
+                  >
                     Whatsapp
-                    <FaWhatsapp/>
-                  </a>
+                    <FaWhatsapp />
+                  </Link>
                 </div>
                 {/* Header Btn End */}
               </div>
               {/* Main Menu End */}
               <div className="navbar-toggle">
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   aria-haspopup="true"
                   role="button"
                   tabIndex={0}
-                  className="slicknav_btn slicknav_collapsed"
+                  onClick={()=>setShow(!show)}
+                  className={show ? "slicknav_btn slicknav_open" :"slicknav_btn slicknav_collapsed"}
                   style={{ outline: "none" }}
                 >
                   <span className="slicknav_menutxt" />
@@ -158,7 +94,7 @@ const Header = () => {
                     <span className="slicknav_icon-bar" />
                     <span className="slicknav_icon-bar" />
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </nav>
@@ -168,20 +104,20 @@ const Header = () => {
                 className="slicknav_nav slicknav_hidden"
                 aria-hidden="true"
                 role="menu"
-                style={{ display: "none" }}
+                style={{  display: show ? '': "none" }}
               >
                 <li className="nav-item submenu slicknav_collapsed slicknav_parent">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     role="menuitem"
                     aria-haspopup="true"
                     tabIndex={-1}
                     className="slicknav_item slicknav_row"
                     style={{ outline: "none" }}
                   />
-                  <a className="nav-link" href="index-2.html" tabIndex={-1}>
+                  <Link className="nav-link" to="/" tabIndex={-1}>
                     Home
-                  </a>
+                  </Link>
                   <span className="slicknav_arrow">►</span>
                   <ul
                     role="menu"
@@ -190,217 +126,80 @@ const Header = () => {
                     style={{ display: "none" }}
                   >
                     <li className="nav-item">
-                      <a
+                      <Link
                         className="nav-link"
-                        href="index.html"
+                        to="/"
                         role="menuitem"
                         tabIndex={-1}
                       >
                         Home - Image
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
+                      <Link
                         className="nav-link"
-                        href="index-video.html"
+                        to="/"
                         role="menuitem"
                         tabIndex={-1}
                       >
                         Home - Video
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a
+                      <Link
                         className="nav-link"
-                        href="index-slider.html"
+                        to="/"
                         role="menuitem"
                         tabIndex={-1}
                       >
                         Home - Slider
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
-                {/* <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="about.html"
-                    role="menuitem"
-                    tabIndex={-1}
-                  >
-                    About Us
-                  </a>
-                </li> */}
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="services.html"
+                    to=""
                     role="menuitem"
                     tabIndex={-1}
                   >
                     Services
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="blog.html"
+                    to="/"
                     role="menuitem"
                     tabIndex={-1}
                   >
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item submenu slicknav_collapsed slicknav_parent">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     role="menuitem"
                     aria-haspopup="true"
                     tabIndex={-1}
                     className="slicknav_item slicknav_row"
                     style={{ outline: "none" }}
                   />
-                  <a className="nav-link" href="#" tabIndex={-1}>
+                  {/* <Link  className="nav-link" to="#" tabIndex={-1}>
                     Pages
-                  </a>
-                  <span className="slicknav_arrow">►</span>
-                  <ul
-                    role="menu"
-                    className="slicknav_hidden"
-                    aria-hidden="true"
-                    style={{ display: "none" }}
-                  >
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="service-single.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Service Details
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="blog-single.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Blog Details
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="projects.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Projects
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="project-single.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Project Details
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="team.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Our Team
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="team-single.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Team Details
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="pricing.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Pricing
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="testimonials.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Testimonials
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="image-gallery.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Image Gallery
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="video-gallery.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Video Gallery
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="faqs.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        FAQs
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="404.html"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        404
-                      </a>
-                    </li>
-                  </ul>
+                  </Link>  */}
+                  {/* <span className="slicknav_arrow">►</span> */}
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
-                    href="contact.html"
+                    to="/"
                     role="menuitem"
                     tabIndex={-1}
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -14,7 +14,7 @@ const Topbar = () => {
           <div className="topbar-info-text">
             <p>
               We are always ready to protect your data{" "}
-              <a href="https://skilledwriting.co.uk/contact">Contact now</a>
+              <a href="/">Contact now</a>
             </p>
           </div>
         </div>

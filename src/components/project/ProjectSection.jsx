@@ -141,6 +141,7 @@ const ProjectSection = () => {
               className="section-footer-text wow fadeInUp"
               data-wow-delay="0.6s"
             >
+
             </div>
             {/* Section Footer Text End */}
           </div>
