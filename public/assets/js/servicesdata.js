@@ -1,11 +1,11 @@
 export const servicesData = 
     {
         "skilled writing": {
-            "page_title": "Hire Online skilled writing; The Stairway To A-Grades",
+            "page_title": "Hire Online skilled writing The Stairway To A-Grades",
             "url": "hire-online-skilled",
             "statistics": {},
             "content_sections": []
-        },
+        }, 
         "Dissertation Writing": {
             "page_title": "Dissertation skilled writing",
             "url": "dissertation-skilled-writing",
@@ -136,7 +136,7 @@ export const servicesData =
                 },
                 {
                     "title": "Is Programming skilled writing Worth It?",
-                    "description": "We work to order to fit the needs of each individual student; however, services have a couple of things in common: Programming skilled writing always is carried out by qualified professionals Writing with programming skilled is always affordable — cheap enough for any student budget If you request our Writing, in addition to the coding part of your homework, our writers can provide you with a custom written summary of the work. This will Writing you understand the process behind the programming, useful both for examinations and future tasks. We can also add comments to the code to Writing you understand the most important sections and to allow you to make additions later on. Finally, our programming skilled writing includes providing test cases for you to check the code on an individual level. Equipped with our custom written test cases, you can easily create more of your own — for the same code or for other pieces of code in the same programming language. When you first start programming, you may find the process quite time-consuming, but with practice, you will become faster. The problem is, early on, you may not always f dedicate enough time to programming due to various other commitments. Our team of professionals have been programming for years and will complete the task in no time, giving you the chance to learn at your own speed without worrying about missed deadlines"
+                    "description": "We work to order to fit the needs of each individual student however, services have a couple of things in common: Programming skilled writing always is carried out by qualified professionals Writing with programming skilled is always affordable — cheap enough for any student budget If you request our Writing, in addition to the coding part of your homework, our writers can provide you with a custom written summary of the work. This will Writing you understand the process behind the programming, useful both for examinations and future tasks. We can also add comments to the code to Writing you understand the most important sections and to allow you to make additions later on. Finally, our programming skilled writing includes providing test cases for you to check the code on an individual level. Equipped with our custom written test cases, you can easily create more of your own — for the same code or for other pieces of code in the same programming language. When you first start programming, you may find the process quite time-consuming, but with practice, you will become faster. The problem is, early on, you may not always f dedicate enough time to programming due to various other commitments. Our team of professionals have been programming for years and will complete the task in no time, giving you the chance to learn at your own speed without worrying about missed deadlines"
                 }
             ]
         },

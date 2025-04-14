@@ -100,7 +100,6 @@ h6{
 	line-height: 1.2em;
 	color: var(--primary-color);
 }
-
 figure{
 	margin: 0;
 }
@@ -402,7 +401,7 @@ body{
 
 .section-title h1{
 	text-align: center;
-	font-size: 68px;
+	font-size: 40px;
 	font-weight: 700;
 	color: var(--white-color);
 	margin-bottom: 0;
@@ -659,7 +658,7 @@ header.main-header .header-sticky.active{
 	/* padding: 20px; */
 	margin: 0;
 	list-style: none;
-	width: 600px;
+	width: auto;
 	border-radius: 20px;
 	position: absolute;
 	left: 0;
@@ -700,6 +699,8 @@ header.main-header .header-sticky.active{
 	color: var(--white-color);
 	padding: 8px 20px !important;
 	transition: all 0.3s ease-in-out;
+	white-space: nowrap; 
+
 }
 
 .main-menu ul li:hover > ul{
@@ -838,14 +839,14 @@ header.main-header .header-sticky.active{
 .mega-dropdown {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
-	gap: 10px;
+	gap: 0px;
 	background: white;
-	padding: 20px;
+	padding: 0px;
 	position: absolute;
 	top: 100%;
 	left: 0;
 	z-index: 1000;
-	width: 800px; /* adjust as needed */
+	width: auto; /*adjust as needed*/
 	box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
 	visibility: hidden;
 	opacity: 0;
@@ -2882,7 +2883,7 @@ header.main-header .header-sticky.active{
 .post-item-body h2{
 	font-size: 20px;
 	line-height: 1.4em;
-	color: black;
+	color: #f9f6f6;
 }
 
 .post-item-body h2 a{
@@ -2891,15 +2892,16 @@ header.main-header .header-sticky.active{
 
 .post-item-btn a{
 	height: 42px;
-	width: 42px;
-	border-radius: 50%;
-	display: flex;
-	background-color: var(--white-color);
-	color: var(--accent-color);
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-	transition: all 0.4s ease-in-out;
+    width: max-content;
+    border-radius: 9%;
+    display: flex;
+    background-color: var(--white-color);
+    color: var(--accent-color);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    padding: 3px;
 }
 
 .post-item-btn a:hover{
@@ -3095,7 +3097,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background-image: url('../images/page-header-bg.jpg');
+	background-image: url('../images/HeroBg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3151,9 +3153,9 @@ header.main-header .header-sticky.active{
 	color: var(--white-color);
 }
 
-.page-header-box ol .breadcrumb-item+.breadcrumb-item::before{
+/* .page-header-box ol .breadcrumb-item+.breadcrumb-item::before{
     color: var(--white-color);
-}
+} */
 
 .our-approach{
 	position: relative;
@@ -5058,7 +5060,7 @@ header.main-header .header-sticky.active{
 .page-contact-box{
 	position: relative;
 	padding: 0 120px 120px 120px;
-	background: url('../images/contact-box-bg.jpg') no-repeat;
+	background: url('../images/HeroBg.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	border: 1px solid var(--divider-color);
@@ -7517,3 +7519,11 @@ header.main-header .header-sticky.active{
 a.btn-default.ordernow2{
 	margin-top: 15px;
 }
+.accordion-icon {
+	transition: transform 0.3s ease;
+  }
+  
+  .accordion-button:not(.collapsed) .accordion-icon {
+	transform: rotate(180deg);
+  }
+  

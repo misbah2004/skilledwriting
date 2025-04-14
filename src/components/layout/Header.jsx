@@ -6,6 +6,7 @@ import {
 } from "react-icons/fa";
 import { servicesData } from "../../../public/assets/js/servicesdata";
 import { Link } from "react-router";
+import ContactUs from "../../pages/ContactUs";
 
 const Header = () => {
   const [show , setShow]=useState(false)
@@ -49,17 +50,17 @@ const Header = () => {
                     </li>
 
                     <li className="nav-item">
-                      <Link className="nav-link" to="">
+                      <Link className="nav-link" to="/contact">
                         Contact Us
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/">
+                      <Link className="nav-link" to="/blog">
                         Blog
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/">
+                      <Link className="nav-link" to="faqs">
                         FAQs
                       </Link>
                     </li>
@@ -118,44 +119,6 @@ const Header = () => {
                   <Link className="nav-link" to="/" tabIndex={-1}>
                     Home
                   </Link>
-                  <span className="slicknav_arrow">►</span>
-                  <ul
-                    role="menu"
-                    className="slicknav_hidden"
-                    aria-hidden="true"
-                    style={{ display: "none" }}
-                  >
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Home - Image
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Home - Video
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link
-                        className="nav-link"
-                        to="/"
-                        role="menuitem"
-                        tabIndex={-1}
-                      >
-                        Home - Slider
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
                 <li className="nav-item">
                   <Link
@@ -164,41 +127,37 @@ const Header = () => {
                     role="menuitem"
                     tabIndex={-1}
                   >
-                    Services
+                    Services<FaChevronDown/>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
                     className="nav-link"
-                    to="/"
+                    to="/blog"
                     role="menuitem"
                     tabIndex={-1}
                   >
                     Blog
                   </Link>
                 </li>
-                <li className="nav-item submenu slicknav_collapsed slicknav_parent">
-                  <Link
-                    to="#"
-                    role="menuitem"
-                    aria-haspopup="true"
-                    tabIndex={-1}
-                    className="slicknav_item slicknav_row"
-                    style={{ outline: "none" }}
-                  />
-                  {/* <Link  className="nav-link" to="#" tabIndex={-1}>
-                    Pages
-                  </Link>  */}
-                  {/* <span className="slicknav_arrow">►</span> */}
-                </li>
                 <li className="nav-item">
                   <Link
                     className="nav-link"
-                    to="/"
+                    to="/contact"
                     role="menuitem"
                     tabIndex={-1}
                   >
                     Contact Us
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    to="/faqs"
+                    role="menuitem"
+                    tabIndex={-1}
+                  >
+                    FAQs
                   </Link>
                 </li>
               </ul>

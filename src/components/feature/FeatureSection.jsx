@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const FeatureSection = () => {
   return (
@@ -111,9 +112,9 @@ const FeatureSection = () => {
                     <li>Sample Provisions</li>
                   </p>
                   <div className="about-footer-btn ">
-                  <a href="#" className="btn-default ordernowbtn">
+                  <Link to="/contact" className="btn-default ordernowbtn">
                     Order Now
-                  </a>
+                  </Link>
                 </div>
                 </div>
               </div>

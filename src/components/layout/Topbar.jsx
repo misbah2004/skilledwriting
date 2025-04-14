@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaEnvelope, FaFacebook, FaFacebookF, FaInstagram, FaPhone, FaPhoneAlt, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 import { FaT, FaXTwitter } from 'react-icons/fa6'
+import { Link } from 'react-router'
 
 const Topbar = () => {
   return (
@@ -14,7 +15,7 @@ const Topbar = () => {
           <div className="topbar-info-text">
             <p>
               We are always ready to protect your data{" "}
-              <a href="/">Contact now</a>
+              <Link to="/contact">Contact now</Link>
             </p>
           </div>
         </div>
@@ -25,13 +26,7 @@ const Topbar = () => {
             <div className="topbar-contact-info">
               <ul>
                 <li>
-                  <a href="#">Help</a>
-                </li>
-                <li>
-                  <a href="#">Support</a>
-                </li>
-                <li>
-                  <a href="https://skilledwriting.co.uk/contact">Contact</a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>

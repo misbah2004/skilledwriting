@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const SecuritySection = () => {
   return (
@@ -38,9 +39,9 @@ const SecuritySection = () => {
                 </p> */}
               </div>
               <div className="about-footer-btn">
-                  <a href="#" className="btn-default">
+                  <Link to="/contact" className="btn-default">
                     Book Now
-                  </a>
+                  </Link>
                 </div>
               {/* Security Content Item End */}
               {/* Security Content Item Start */}

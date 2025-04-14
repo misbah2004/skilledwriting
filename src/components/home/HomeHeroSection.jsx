@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaArrowCircleRight, FaPlay } from 'react-icons/fa'
+import Services from '../ServicesPage/Services'
 
 const HomeHeroSection = ({service}) => {
 
@@ -38,23 +39,8 @@ const HomeHeroSection = ({service}) => {
                   GET IN TOUCH
                 </a>
               </div>
-              {/* Hero Button End */}
-              {/* Video Play Button Start */}
-              {/* <div className="video-play-button">
-                <a
-                  href="#"
-                  className="popup-video"
-                  data-cursor-text="Play"
-                >
-                  <FaPlay/>
-                </a>
-                <h3>Play video</h3>
-              </div> */}
-              {/* Video Play Button End */}
             </div>
-            {/* Hero Content Body End */}
           </div>
-          {/* Hero Content End */}
         </div>
       </div>
     </div>

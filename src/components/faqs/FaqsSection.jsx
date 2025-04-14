@@ -16,7 +16,6 @@ const FaqsSection = () => {
                 data-cursor="-opaque"
               >
                 What parts skilled writing From Others?
-
               </h2>
             </div>
             {/* Section Title End */}

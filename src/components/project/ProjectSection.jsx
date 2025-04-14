@@ -73,7 +73,7 @@ const ProjectSection = () => {
                     Tell Us Your Problem
                     </a>
                   </h3>
-                  <h6>
+                  <h6 className='psech1'>
                     <span>
                     Let us know what type of Writing you need from our experts.
                     </span>

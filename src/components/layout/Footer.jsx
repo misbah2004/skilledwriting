@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaPaperPlane, FaPinterestP } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPaperPlane, FaPinterestP } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
+import { Link } from 'react-router'
 
 const Footer = () => {
   return (
@@ -20,23 +21,23 @@ const Footer = () => {
             {/* Footer Social Links Start */}
             <div className="footer-social-links">
               <ul>
-                <li>
-                  <a href="#">
+                {/* <li>
+                  <a href="">
                     <FaPinterestP/>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="#">
-                    <FaXTwitter/>
+                  <a href="https://www.linkedin.com/company/ezaconsultancy90/">
+                    <FaLinkedinIn/>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/people/Eza-Consultancy/61560131918581/?mibextid=LQQJ4d">
                     <FaFacebookF/>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/ezasconsultancy.pk/?igsh=MXNrdnJ6cmhiMTF3dg%3D%3D">
                     <FaInstagram/>
                   </a>
                 </li>
@@ -52,7 +53,7 @@ const Footer = () => {
             <img src="/assets/images/logo.png" alt="" width={100} />
             <h3>Subscribe our newsletter:</h3>
             <p>We are a group of skilled Writting Writingers with several years of experience ..</p>
-            <form id="newsletterForm" action="#" method="POST">
+            <form id="newsletterForm" action="javascript:void(0);" method="POST">
               <div className="form-group">
                 <input
                   type="email"
@@ -76,13 +77,13 @@ const Footer = () => {
             <h3>Quick link</h3>
             <ul>
               <li>
-                <a href="#">home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#">FAQ</a>
+                <a href="/faqs">FAQ</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="/contact">Contact Us</a>
               </li>
             </ul>
           </div>
