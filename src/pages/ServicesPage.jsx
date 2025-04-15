@@ -24,20 +24,18 @@ const ServicesPage = () => {
     if (!service) {
       return <h2>Service not found</h2>;
     }
-    
   return (
     <>
       <HomeHeroSection service={service}/>
-      <ServicesSection />
+      {/* <ServicesSection />
       <ProjectSection />
       <FaqsSection />
       <SecuritySection />
       <FeatureSection />
       <BenefitsSection/>
       <PricingPlanSection />
-      <TeamSection />
-      <AboutUsSection />
-      
+      <TeamSection /> */}
+      <AboutUsSection service={service} />
     </>
   );
 };

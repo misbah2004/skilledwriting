@@ -12,12 +12,12 @@ const Topbar = () => {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-md-7">
-          <div className="topbar-info-text">
+          {/* <div className="topbar-info-text">
             <p>
               We are always ready to protect your data{" "}
               <Link to="/contact">Contact now</Link>
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="col-md-5">
           {/* Topbar Social Links Start */}

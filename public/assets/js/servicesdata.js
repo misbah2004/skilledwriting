@@ -10,25 +10,181 @@ export const servicesData =
             "page_title": "Dissertation skilled writing",
             "url": "dissertation-skilled-writing",
             "statistics": {},
-            "content_sections": []
+            "content_sections": [
+                {
+                    "title": "Dissertation Help",
+                    "description": "Writing a dissertation is one of the most significant and demanding milestones in your academic journey. At Skilled Writing, we specialize in providing expert dissertation help that caters to students across the UK and beyond. Whether you're a final-year undergraduate, a master's student, or pursuing a PhD, our professional team of academic writers is ready to guide you through every stage of the process."                            
+                },
+                {
+                    "title": "Why Choose Skilled Writing for Your Dissertation?",
+                    "description": "Expert UK-Based Writers: Our team consists of PhD-qualified professionals with extensive experience in academic research and writing.Customised Assistance: Every dissertation is written from scratch, fully customised to meet your university's specific guidelines and your topic’s requirements.Customised Assistance: Every dissertation is written from scratch, fully customised to meet your university's specific guidelines and your topic’s requirements.Comprehensive Support: From topic selection and proposal writing to data collection, analysis, and final proofreading—we cover it all.Plagiarism-Free Guarantee: All our work is 100% original and delivered with a free plagiarism report.Strict Confidentiality: We maintain full confidentiality and ensure your personal and academic data is secure."
+                },
+                {
+                    "title": "Our Dissertation Services Include:",
+                    "description": [
+                        "Topic Selection & Research Question Development",
+                        "Proposal Writing",
+                        "Literature Review",
+                        "Research Methodology",
+                        "Data Collection & Statistical Analysis",
+                        "Discussion & Interpretation of Results",
+                        "PEditing, Proofreading, and Formatting (APA, Harvard, MLA, etc.)",
+                        "Abstract and Appendices Support",
+                        "Referencing and Bibliography",
+                    ]
+                    },
+                    {
+                        "title": "Subjects We Cover:",
+                        "description": [
+                          "Business & Management",
+                          "Nursing & Healthcare",
+                          "Education & Social Sciences",
+                          "Engineering & Computer Science",
+                          "Finance & Accounting",
+                          "Law & International Relations",
+                          "Marketing, Psychology, History, and more",
+                    ]
+                    },
+                    {
+                        "title": "Skilled Writing – A Learning Platform For Everyone!",
+                        "description": "We are an online academic platform that provides a learning experience to students based on their academic level, subject, and the amount of support they need. We offer individual online learning support by developing personalized plans for every student. At Skilled Writing, we pair students with experts who match their requirements and arrange one-to-one sessions according to the student’s convenience. From essays, to skilled writing, to presentations, lab reports, or any type of homework – we can help you with any tasks. You can choose any skilled expert that fits your requirements. We make sure that at our platform, you have the best learning experience. For this, we have hired top professional experts who are highly qualified and have over 10 years of experience in the teaching industry. We assure you that with their unique teaching methods and brilliant ideas, you will easily meet your academic goals."
+                    },
+                    {
+                        "title": "Let Us Writing You Sail Your Dissertation Boat To The Shores Of Success!",
+                        "description": "We understand that every student learns at a different pace. To help you stay ahead of your class and reach the top, we offer our finest academic services at highly affordable rates. We recognize that students often have limited budgets, which is why we keep our prices low and provide amazing discounts to make our services accessible to all. At Skilled Writing, we empower students with knowledge and excellence, teaching them through unique methods and advanced technologies that support their learning. We ensure our students get the best out of our platform. Our experts are dedicated to enhancing students' learning and work hard to improve their skills. We work relentlessly to help you achieve your desired grades and career goals. So what are you waiting for? Get the best online learning experience at Skilled Writing and make your academic life easier!",
+                        "about": "We are a group of skilled writing experts with several years of experience."
+                      }        
+            ]
         },
         "Essay Writing": {
             "page_title": "Submit The Best Essay With Professional Guidance, Today!",
             "url": "the-best-essay",
             "statistics": {},
-            "content_sections": []
+            "content_sections": [
+                  {
+                    "title": "Essay Help",
+                    "description": "Struggling to meet deadlines or unsure how to approach your next essay? At Skilled Writing, we provide high-quality essay help tailored to students studying in the UK and abroad. Whether it’s a descriptive, analytical, persuasive, or argumentative essay, our team of expert academic writers is here to support you from start to finish."
+                  },
+                  {
+                    "title": "Why Choose Our Essay Writing Services?",
+                    "description": [
+                      "Subject-Specialist Writers: Our essay writers hold advanced degrees (Master’s & PhD) in various disciplines and are familiar with the academic standards of top UK universities.",
+                      "Custom Written Essays: Every essay is crafted from scratch based on your instructions, ensuring uniqueness and relevance to your course material.",
+                      "Fast Turnaround: Need an urgent essay? We deliver quality work even on tight deadlines without compromising accuracy.",
+                      "Plagiarism-Free Work: All essays are checked through advanced plagiarism detection tools and include a free plagiarism report.",
+                      "Affordable & Confidential: We offer student-friendly prices and complete confidentiality of your data and personal details."
+                    ]
+                  },
+                  {
+                    "title": "What We Help With",
+                    "description": [
+                      "Essay Planning and Structure",
+                      "Research and Source Integration",
+                      "Academic Writing Style and Tone",
+                      "Thesis Statement and Argument Development",
+                      "Critical Analysis and Evaluation",
+                      "Editing, Proofreading, and Formatting",
+                      "Proper Referencing (APA, Harvard, MLA, Chicago, etc.)"
+                    ]
+                  },
+                  {
+                    "title": "Types of Essays We Cover",
+                    "description": [
+                      "Argumentative Essays",
+                      "Narrative Essays",
+                      "Reflective Essays",
+                      "Compare and Contrast Essays",
+                      "Descriptive Essays",
+                      "Cause and Effect Essays",
+                      "Admission & Scholarship Essays"
+                    ]
+                  },
+                  {
+                    "title": "Subjects We Cover Include",
+                    "description": [
+                      "English Literature & Creative Writing",
+                      "Law & Political Science",
+                      "Psychology & Sociology",
+                      "Business & Marketing",
+                      "History & International Relations",
+                      "Nursing & Healthcare",
+                      "Computer Science & Engineering",
+                      "Accounting, Finance, and many more"
+                    ]
+                  },
+                  {
+                    "title": "Achieve Academic Excellence with Skilled Writing",
+                    "description": "No matter how complex the topic, we’re here to simplify the writing process for you. Submit your essay requirements today and let us deliver a high-quality essay that earns you the grade you deserve. Order Now and experience stress-free academic writing support!"
+                  }                  
+            ]
         },
         "Live Sessions": {
             "page_title": "Avail Live Sessions To Upgrade Your Knowledge",
             "url": "avail-live-session",
             "statistics": {},
-            "content_sections": []
+            "content_sections": [
+                     {
+                       "title": "Live Session Academic Support",
+                       "description": "Need real-time academic help from subject experts? At Skilled Writing, we offer Live Session support to students who prefer interactive guidance. Whether you’re preparing for exams, tackling complex assignments, or need help understanding difficult concepts, our live one-on-one sessions are tailored to your academic needs."
+                     },
+                     {
+                        "title": "Our Dissertation Services Include:",
+                        "description": [
+                            "Instant Access to Experts: Book a session with a subject-matter specialist who understands your curriculum and topic.",
+                            "Flexible Scheduling: Choose your preferred time—day or night—according to your convenience and deadline.",
+                            "One-on-One Guidance: Interact directly with your academic mentor via Zoom, Google Meet, or WhatsApp video call.",
+                            "Topic-Focused Sessions: We focus on the exact area you're struggling with—be it a specific theory, assignment, project, or case study.",
+                            "Screen Sharing & Interactive Tools: View live explanations, diagrams, examples, and presentations during the session.",
+                        ]
+                        },
+                     {
+                        "title": "Live Sessions Cover:",
+                        "description": [
+                            "Concept Breakdown & Topic Explanations",
+                            "Assignment Walkthrough & Step-by-Step Solutions",
+                            "Exam & Test Preparation",
+                            "Research Guidance & Structure Planning",
+                            "Coding & Technical Demonstrations",
+                            "Mathematical Problem Solving",
+                        ]
+                        },
+                     {
+                        "title": "Subjects We Cover:",
+                        "description": [
+                            "Business & Management",
+                            "Economics & Accounting",
+                            "Nursing, Healthcare & Medicine",
+                            "Computer Science & Programming",
+                            "Engineering (Electrical, Mechanical, Civil)",
+                            "Psychology, Law & Criminology",
+                            "English Literature, Linguistics & Social Sciences",
+                        ]
+                        },
+                     {
+                        "title": "Why Choose Skilled Writing Live Support?",
+                        "description": [
+                            "100% Confidentiality",
+                            "Qualified PhD-Level Experts",
+                            "Immediate Doubt-Clearing",
+                            "Affordable Hourly Rates",
+                            "Complete Post-Session Notes (If Needed)",
+                            "Psychology, Law & Criminology",
+                            "English Literature, Linguistics & Social Sciences",
+                        ]
+                        },
+                        {
+                            
+                            "description": "Take control of your academic journey with confidence. Book your Live Session today and learn smarter, not harder.",
+                        }
+                        ]
         },
         "Presentation Writing": {
             "page_title": "Feeling Nervous? Get Presentation Writing Writing Now!",
             "url": "feeling-nervous-get",
             "statistics": {},
-            "content_sections": []
+            "content_sections": [
+                
+            ]
         },
         "Speech Writing": {
             "page_title": "Need Writing With Composing The Most Astounding Speech?",

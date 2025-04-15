@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaArrowCircleRight, FaPlay } from 'react-icons/fa'
 import Services from '../ServicesPage/Services'
+import { Link } from 'react-router'
 
 const HomeHeroSection = ({service}) => {
 
@@ -21,7 +22,7 @@ const HomeHeroSection = ({service}) => {
                 data-wow-delay="0.2s"
                 data-cursor="-opaque"
               >
-                {service?.page_title || "Welcome To Online skilled writing"}
+                {service?.page_title || "Welcome to online skilled writing"}
               </h1>
               <p className="wow fadeInUp" data-wow-delay="0.4s">
               Looking for the ideal place to get academic Writing? Welcome to the Online Dissertation Writingers! Dissertations, essays, skilled, or we are here to assist you everywhere. If you are one of the anxious students and want to score the best grades in your exams, contact us now!
@@ -35,9 +36,9 @@ const HomeHeroSection = ({service}) => {
             >
               {/* Hero Button Start */}
               <div className="hero-btn">
-                <a href="#" className="btn-default btn-highlighted">
+                <Link to="/contact" className="btn-default btn-highlighted">
                   GET IN TOUCH
-                </a>
+                </Link>
               </div>
             </div>
           </div>

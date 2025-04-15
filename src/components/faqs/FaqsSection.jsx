@@ -19,11 +19,11 @@ const FaqsSection = () => {
               </h2>
             </div>
             {/* Section Title End */}
-      <div className="row ">
+      <div className="faq-accordion" id="accordion">
+      <div className="row">
         
       <div className="col-lg-6">
           {/* FAQ Accordion Start */}
-          <div className="faq-accordion" id="accordion">
             {/* FAQ Item Start */}
             <div className="accordion-item wow fadeInUp">
               <h2 className="accordion-header" id="heading1">
@@ -110,10 +110,9 @@ const FaqsSection = () => {
             {/* FAQ Item End */}
           </div>
           {/* FAQ Accordion End */}
-        </div>
+        
         <div className="col-lg-6">
           {/* FAQ Accordion Start */}
-          <div className="faq-accordion" id="accordion">
             {/* FAQ Item Start */}
             <div className="accordion-item wow fadeInUp">
               <h2 className="accordion-header" id="heading1">
@@ -121,15 +120,15 @@ const FaqsSection = () => {
                   className="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapse5"
+                  data-bs-target="#collapse4"
                   aria-expanded="true"
-                  aria-controls="collapse5"
+                  aria-controls="collapse4"
                 >
                   24/7 Availability
                 </button>
               </h2>
               <div
-                id="collapse5"
+                id="collapse4"
                 className="accordion-collapse collapse show"
                 aria-labelledby="heading1"
                 data-bs-parent="#accordion"
@@ -149,15 +148,15 @@ const FaqsSection = () => {
                   className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapse6"
+                  data-bs-target="#collapse5"
                   aria-expanded="false"
-                  aria-controls="collapse6"
+                  aria-controls="collapse5"
                 >
                   Customer Satisfication
                 </button> 
               </h2>
               <div
-                id="collapse6"
+                id="collapse5"
                 className="accordion-collapse collapse"
                 aria-labelledby="heading2"
                 data-bs-parent="#accordion"
@@ -177,15 +176,15 @@ const FaqsSection = () => {
                   className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapse7"
+                  data-bs-target="#collapse6"
                   aria-expanded="false"
-                  aria-controls="collapse7"
+                  aria-controls="collapse6"
                 >
                   Boost Grades
                 </button>
               </h2>
               <div
-                id="collapse7"
+                id="collapse6"
                 className="accordion-collapse collapse"
                 aria-labelledby="heading3"
                 data-bs-parent="#accordion"
@@ -198,8 +197,9 @@ const FaqsSection = () => {
               </div>
             </div>
             {/* FAQ Item End */}
-          </div>
+          
           {/* FAQ Accordion End */}
+        </div>
         </div>
       </div>
     </div>

@@ -7526,4 +7526,9 @@ a.btn-default.ordernow2{
   .accordion-button:not(.collapsed) .accordion-icon {
 	transform: rotate(180deg);
   }
-  
+  .asigmenttxt{
+	margin-top: 20px;
+  }
+  .clicktxt{
+	margin-top: 20px;
+  }

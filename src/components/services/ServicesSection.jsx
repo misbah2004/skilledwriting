@@ -19,7 +19,8 @@ const ServicesSection = () => {
               data-cursor="-opaque"
             >
               <span>Find A Experts For Any Academic Task You Want</span><br />
-              <h6>Reach out to Assignment Writing and get a range of services to seek <br /> Writing. Let’s learn together and Writing you succeed in your <br /> academic life.</h6>
+              {/* <br /> */}
+              <div className='asigmenttxt'><h6 className=''>Reach out to Assignment Writing and get a range of services to seek <br /> Writing. Let’s learn together and Writing you succeed in your <br /> academic life.</h6></div>
             </h2>
           </div>
           {/* Section Title End */}
@@ -36,7 +37,7 @@ const ServicesSection = () => {
               <div className="service-title">
                 <h3>
                   <a href="#">
-                    Skilled Writing writing
+                    Skilled Writing 
                   </a>
                 </h3>
               </div>
@@ -64,7 +65,7 @@ const ServicesSection = () => {
               <div className="service-title">
                 <h3>
                   <a href="#">
-                    Easy Writing writing
+                    Easy Writing 
                   </a>
                 </h3>
               </div>
@@ -93,7 +94,7 @@ const ServicesSection = () => {
               <div className="service-title">
                 <h3>
                   <a href="#">
-                    Dissertation Writing writing
+                    Dissertation Writing 
                   </a>
                 </h3>
               </div>
@@ -121,7 +122,7 @@ const ServicesSection = () => {
               <div className="service-title">
                 <h3>
                   <a href="#">
-                    lab Report Writing writing
+                    lab Report Writing 
                   </a>
                 </h3>
               </div>
@@ -149,7 +150,7 @@ const ServicesSection = () => {
               <div className="service-title">
                 <h3>
                   <a href="#">
-                    Project Report Writing writing
+                    Project Report Writing 
                   </a>
                 </h3>
               </div>
@@ -177,7 +178,7 @@ const ServicesSection = () => {
               <div className="service-title">
                 <h3>
                   <a href="#">
-                    Speech Writing writing
+                    Speech Writing 
                   </a>
                 </h3>
               </div>
@@ -205,7 +206,7 @@ const ServicesSection = () => {
               <div className="service-title">
                 <h3>
                   <a href="#">
-                    Presentation Writing writing
+                    Presentation Writing 
                   </a>
                 </h3>
               </div>
@@ -251,34 +252,7 @@ const ServicesSection = () => {
           </div>
           {/* Service Item End */}
         </div>
-        <div className="col-lg-4 col-md-6">
-          {/* Service Item Start */}
-          <div className="service-item wow fadeInUp">
-            <div className="icon-box">
-              <img src="/assets/images/card.png" alt="" />
-            </div>
-            <div className="service-title-box">
-              <div className="service-title">
-                <h3>
-                  <a href="#">
-                    Live Session
-                  </a>
-                </h3>
-              </div>
-              <div className="service-btn">
-                <Link to="/Contact">
-                  <FaArrowRight />
-                </Link>
-              </div>
-            </div>
-            <div className="service-content">
-              <p>
-              Get answers to all your academic problems by taking one-to-one live sessions from our highly qualified professional experts.
-              </p>
-            </div>
-          </div>
-          {/* Service Item End */}
-        </div>
+        
       </div>
     </div>
   </div>

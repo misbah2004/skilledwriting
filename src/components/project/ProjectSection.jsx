@@ -16,9 +16,8 @@ const ProjectSection = () => {
               data-cursor="-opaque"
             >
               Getting Our Writing Is Easier Than You Think
-
             </h2>
-            <h3 className="wow fadeInUp">You Are A Few Clicks Away</h3>
+            <div className='clicktxt'><h3 className="wow fadeInUp">You Are A Few Clicks Away</h3></div>
           </div>
           {/* Section Title End */}
         </div>
@@ -34,7 +33,7 @@ const ProjectSection = () => {
                 <div className="project-image">
                   <a href="#" data-cursor-text="View">
                     <figure className="image-anime">
-                      <img src="/assets/images/project-1.jpg" alt="" />
+                      <img src="/assets/images/Eduone.jpg" alt="" />
                     </figure>
                   </a>
                 </div>
@@ -44,7 +43,7 @@ const ProjectSection = () => {
                   </p>
                   <h3>
                     <a href="#">
-                      Rejister With Us
+                      Register With Us
                     </a>
                   </h3>
                   <h6>
@@ -60,7 +59,7 @@ const ProjectSection = () => {
                 <div className="project-image">
                   <a href="#" data-cursor-text="View">
                     <figure className="image-anime">
-                      <img src="/assets/images/project-2.jpg" alt="" />
+                      <img src="/assets/images/Edutwo.jpg" alt="" />
                     </figure>
                   </a>
                 </div>
@@ -86,7 +85,7 @@ const ProjectSection = () => {
                 <div className="project-image">
                   <a href="#" data-cursor-text="View">
                     <figure className="image-anime">
-                      <img src="/assets/images/project-3.jpg" alt="" />
+                      <img src="/assets/images/Eduthree.jpg" alt="" />
                     </figure>
                   </a>
                 </div>
@@ -113,7 +112,7 @@ const ProjectSection = () => {
                 <div className="project-image">
                   <a href="#" data-cursor-text="View">
                     <figure className="image-anime">
-                      <img src="/assets/images/project-4.jpg" alt="" />
+                      <img src="/assets/images/Edufour.jpg" alt="" />
                     </figure>
                   </a>
                 </div>

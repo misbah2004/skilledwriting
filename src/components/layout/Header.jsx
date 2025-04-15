@@ -127,7 +127,7 @@ const Header = () => {
                     role="menuitem"
                     tabIndex={-1}
                   >
-                    Services<FaChevronDown/>
+                    Services
                   </Link>
                 </li>
                 <li className="nav-item">
