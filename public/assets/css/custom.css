@@ -289,7 +289,7 @@ body{
 	background: linear-gradient(90.15deg, var(--accent-color) 1.15%, var(--accent-secondary-color) 98.84%);
 }
 
-.preloader{
+.preloader1{
     position: fixed;
 	top: 0;
 	left: 0;

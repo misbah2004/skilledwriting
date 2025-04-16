@@ -37,7 +37,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/ezasconsultancy.pk/?igsh=MXNrdnJ6cmhiMTF3dg%3D%3D">
+                  <a href="https://www.instagram.com/_skilledwriting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                     <FaInstagram/>
                   </a>
                 </li>
@@ -77,7 +77,7 @@ const Footer = () => {
             <h3>Quick link</h3>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="/faqs">FAQ</a>
@@ -95,22 +95,22 @@ const Footer = () => {
             <h3>Services</h3>
             <ul>
               <li>
-                <a href="#">Skilled Writing</a>
+                <a href="/services/skilled%20writing">Skilled Writing</a>
               </li>
               <li>
-                <a href="#">Dessertation Writing</a>
+                <a href="/services/Dissertation%20Writing">Dessertation Writing</a>
               </li>
               <li>
-                <a href="#">Eassy Writing</a>
+                <a href="/services/Essay%20Writing">Eassy Writing</a>
               </li>
               <li>
-                <a href="#">Live Sessions</a>
+                <a href="/services/Live%20Sessions">Live Sessions</a>
               </li>
               <li>
-                <a href="#">Presentation Writting</a>
+                <a href="/services/Presentation%20Writing">Presentation Writting</a>
               </li>
               <li>
-                <a href="#">Project Report</a>
+                <a href="/services/Project%20Report%20Writing">Project Report</a>
               </li>
             </ul>
           </div>

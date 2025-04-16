@@ -25,7 +25,7 @@ const HomeHeroSection = ({service}) => {
                 {service?.page_title || "Welcome to online skilled writing"}
               </h1>
               <p className="wow fadeInUp" data-wow-delay="0.4s">
-              Looking for the ideal place to get academic Writing? Welcome to the Online Dissertation Writingers! Dissertations, essays, skilled, or we are here to assist you everywhere. If you are one of the anxious students and want to score the best grades in your exams, contact us now!
+              {service?.statistics || "Looking for the ideal place to get academic Writing? Welcome to the Online Dissertation Writingers! Dissertations, essays, skilled, or we are here to assist you everywhere. If you are one of the anxious students and want to score the best grades in your exams, contact us now!"}
               </p>
             </div>
             {/* Section Title End */}

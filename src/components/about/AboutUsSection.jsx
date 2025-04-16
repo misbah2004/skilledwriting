@@ -17,20 +17,6 @@ const AboutUsSection = ({ service }) => {
                 </h2> */}
               </div>
 
-              {/* Statistics Section */}
-              {statistics && (
-                <div className="row mb-5">
-                  {Object.entries(statistics).map(([key, value], index) => (
-                    <div className="col-md-3 col-sm-6 mb-3" key={index}>
-                      <div className="stat-box p-3 text-center border rounded shadow-sm h-100">
-                        <h4 className="mb-1">{value}</h4>
-                        <p className="mb-0">{key}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
-
               {/* Content Sections */}
               <div className="security-content-box">
                 {contentSections ? (
@@ -56,18 +42,6 @@ const AboutUsSection = ({ service }) => {
                 ) : (
                   // fallback static content
                   <>
-                    <div className="security-content-item wow fadeInUp mb-4">
-                      <h4>Why Choose Skilled Writing for Your Dissertation?</h4>
-                      <p>We help you with everything from topic selection to final editing...</p>
-                    </div>
-                    <div className="security-content-item wow fadeInUp mb-4">
-                      <h4>Subjects We Cover</h4>
-                      <p>Business, Nursing, Engineering, Law, and many more...</p>
-                    </div>
-                    <div className="security-content-item wow fadeInUp mb-4">
-                      <h4>Let’s Help You Succeed</h4>
-                      <p>We deliver academic excellence with top-rated expert support...</p>
-                    </div>
                   </>
                 )}
               </div>
