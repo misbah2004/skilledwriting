@@ -40,7 +40,6 @@ const AboutUsSection = ({ service }) => {
                     </div>
                   ))
                 ) : (
-                  // fallback static content
                   <>
                   </>
                 )}
