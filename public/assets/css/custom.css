@@ -190,6 +190,11 @@ body{
 	display: flex;
 	justify-content: center;
 }
+@media(max-width:752px){
+	.row{
+		justify-content: flex-start;
+	}
+}
 
 .row > *{
 	padding-right: 15px;
@@ -6729,8 +6734,9 @@ header.main-header .header-sticky.active{
 	}
 
 	.hero-content-body{
-		gap: 20px;
-		justify-content: space-between;
+		/* gap: 20px;
+		justify-content: space-between; */
+		text-align: center;
 	}
 
 	.about-us-image{
