@@ -1,8 +1,6 @@
 import React from 'react';
 
 const AboutUsSection = ({ service }) => {
-  const pageTitle = service?.page_title || 'Dissertation Help';
-  const statistics = service?.statistics;
   const contentSections = service?.content_sections;
 
   return (

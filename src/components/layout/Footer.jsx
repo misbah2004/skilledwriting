@@ -27,12 +27,12 @@ const Footer = () => {
                   </a>
                 </li> */}
                 <li>
-                  <a href="https://www.linkedin.com/company/ezaconsultancy90/">
+                  <a href="https://www.linkedin.com/company/skilled-writing1/about/">
                     <FaLinkedinIn/>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/people/Eza-Consultancy/61560131918581/?mibextid=LQQJ4d">
+                  <a href="https://www.facebook.com/profile.php?id=61573807590248">
                     <FaFacebookF/>
                   </a>
                 </li>

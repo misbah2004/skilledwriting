@@ -103,13 +103,13 @@ const ReactComponent = () => {
                       <div className="post-social-sharing wow fadeInUp" data-wow-delay="0.5s">
                         <ul>
                           <li>
-                            <a href="https://www.facebook.com/people/Eza-Consultancy/61560131918581/?mibextid=LQQJ4d"><FaFacebookF /></a>
+                            <a href="https://www.facebook.com/profile.php?id=61573807590248"><FaFacebookF /></a>
                           </li>
                           <li>
-                            <a href="https://www.linkedin.com/company/ezaconsultancy90/"><FaLinkedinIn /></a>
+                            <a href="https://www.linkedin.com/company/skilled-writing1/about/"><FaLinkedinIn /></a>
                           </li>
                           <li>
-                            <a href="https://www.instagram.com/ezasconsultancy.pk/?igsh=MXNrdnJ6cmhiMTF3dg%3D%3D"><FaInstagram /></a>
+                            <a href="https://www.instagram.com/_skilledwriting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaInstagram /></a>
                           </li>
                           {/* <li>
                             <a href="#"><FaXTwitter /></a>
