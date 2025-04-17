@@ -29,7 +29,7 @@ const Footer = () => {
         }
       );
       const data = await response?.json();
-      console.log(data);
+      // console.log(data);
       toast.success('Congratulation You Subscribe Succesfully');
       setEmail("");
     } catch (error) {
