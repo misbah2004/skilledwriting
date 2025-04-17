@@ -3,6 +3,8 @@ import toast from 'react-hot-toast';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false)
+  const [submetSucess, setSubmetSuccess] = useState(false)
   const [formData, setFormData] = useState({
     fname: '',
     lname: '',
@@ -19,6 +21,7 @@ const Contact = () => {
   };
 
   const handleSubmit = async (e) => {
+    setLoading(true)
     e.preventDefault();
     try {
       const formToSend = new FormData();
@@ -37,6 +40,9 @@ const Contact = () => {
       });
 
       const data = await response.json();
+      if(data.success){
+        setSubmetSuccess(true);
+      }
       toast.success("Submit Sucvces Fully");
       setFormData({
         fname: '',
@@ -47,11 +53,23 @@ const Contact = () => {
       // console.log("Form submitted successfully", data);
     } catch (error) {
       console.log("Form submit error", error);
+    }finally{
+      setLoading(false)
     }
   };
 
   return (
     <>
+     {loading && (
+        <div className="preloader1">
+          <div className="loading-container">
+            <div className="loading" />
+            <div id="loading-icon">
+              <img src="/assets/images/icon.png" alt="Loading..." />
+            </div>
+          </div>
+        </div>
+      )}
       {/* Page Header Start */}
       <div className="page-header parallaxie">
         <div className="container">
@@ -67,6 +85,8 @@ const Contact = () => {
         </div>
       </div>
       {/* Page Header End */}
+      
+
 
       <div className="page-contact-us">
         <div className="container">
