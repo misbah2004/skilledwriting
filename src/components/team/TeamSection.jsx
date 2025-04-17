@@ -52,6 +52,10 @@ const options = {
   responsiveClass: true,
   autoplay: true,
   dots: true,
+  autoplayTimeout:0,
+  autoplayTimeout: 2000, 
+  smartSpeed: 800, 
+  animateOut: 'linear',
   responsive: {
     0: {
       items: 1,
@@ -82,7 +86,6 @@ const OurTeam = () => {
             Skilled writing is recognized as the best place to learn and grow. Until now, we have guided countless students to build their careers. Hire us now and shape your career the way you want!
           </h3>
         </div>
-
         <OwlCarousel className="owl-theme" {...options}>
           {universityCards?.map((member, index) => (
             <div className="team-item" key={index}>
@@ -93,11 +96,6 @@ const OurTeam = () => {
                   </figure>
                 </a>
                 <div className="team-social-icon">
-                  {/* <ul>
-                    <li><a href="#"><FaXTwitter /></a></li>
-                    <li><a href="#"><FaFacebookF /></a></li>
-                    <li><a href="#"><FaInstagram /></a></li>
-                  </ul> */}
                 </div>
               </div>
               <div className="team-content">

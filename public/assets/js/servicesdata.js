@@ -891,28 +891,28 @@ export const servicesData =
             ]
         },
         "Engineering": {
-            "page_title": "Engineering skilled writing",
-            "url": "engineering-skilled",
-            "statistics" : "Put a stop to deadline pressure, and have your homework done ",
-            "content_sections": [
-                {
-                    "title": "Get in on the Action: Marketing skilled writing That You Control Yourself",
-                    "description": "At skilled writing , we work alongside our clients to create good papers. We offer a custom service of writers for hire who work in coordination with you, our client, to finish your marketing skilled. This coordination serves three separate purposes that we will outline below: Allow us to present our service."
-                },
-                {
-                    "title": "Learn About Our Marketing skilled writing",
-                    "description": "Marketing has evolved to include a lot more than cold calling and poster boarding. Now, Google Adwords and Facebook Ads plays a huge role in online advertising. Meanwhile, online video platforms are being used as much or more than Google for simple “how to” searches. If you have a marketing plan skilled, even if it does not directly concern digital, it must make room for digital components. Event planning, for example, depends heavily on promotion through social media. When we sit down to begin work on your project, we do so with this kind of knowledge at the ready."
-                },
-                {
-                    "title": "Who Will Write Your Marketing skilled?",
-                    "description": "Regardless of the type of marketing skilled you need, our experts are prepared for the most daunting tasks in this field. There’s a common misconception that marketing is narrowing down to merely selling the product, but in reality, it encompasses much more actions. So, in order to create a perfect marketing skilled, it is important to understand the main goal of marketing, various strategies, customer’s demand, and be able to develop appropriate marketing solutions. Luckily, our writers are highly skilled in this domain, capable of handling homework on digital marketing, consumer behavior, conducting Porter’s Five Forces Analysis, and much more. We are native English speaking writers from diverse backgrounds who share the common traits of being expert researchers and very good writers. You get to select the person who will work on your piece. You’ll get to communicate with this person as much as need be. Request unlimited revisions, discuss a certain point you think needs more work, etc. The window of opportunity is opened thanks to this personalized interaction."
-                },
-                {
-                    "title": "Enjoy Affordability Of Our Marketing skilled",
-                    "description": "We should mention that we’re cheap when it comes to financial concerns. You’re a student, so yes, we’re cheap. We have discounts to make it cheaper. Head over to The skilled Writing to claim your discount today. Just remember that a marketing plan skilled banks on good writing, so when you buy our cheap service, you’re investing in high-quality written work."
-                }
-            ]
+    "page_title": "Engineering skilled writing",
+    "url": "engineering-skilled",
+    "statistics": "Put a stop to deadline pressure, and have your homework done",
+    "content_sections": [
+        {
+            "title": "Get in on the Action: Engineering Skilled Writing That You Control Yourself",
+            "description": "At Skilled Writing, we work closely with students and professionals to craft high-quality engineering papers. We offer a customized writing service with engineering experts who collaborate directly with you to complete your tasks. This collaboration serves three key purposes: to ensure technical accuracy, align with your vision, and deliver work that meets academic and industry standards. Allow us to introduce our unique service."
         },
+        {
+            "title": "Learn About Our Engineering Skilled Writing",
+            "description": "Engineering isn’t just about solving equations—it’s about solving real-world problems using scientific principles. Whether it’s civil, mechanical, electrical, or software engineering, today’s assignments often combine theory, practical application, and communication. When we start working on your engineering project, we bring deep subject knowledge, whether it involves CAD design, circuit analysis, thermodynamics, or project documentation. We ensure that your work not only solves the problem but also communicates it effectively."
+        },
+        {
+            "title": "Who Will Write Your Engineering Skilled Work?",
+            "description": "No matter the engineering field or level of complexity, our expert writers are ready to take on your toughest challenges. From technical reports and lab results to final year projects and design analysis, we understand what professors and professionals expect. Our team includes native English-speaking engineers and researchers from top institutions, well-versed in tools like MATLAB, AutoCAD, SolidWorks, and more. You’ll have the opportunity to choose your writer, communicate directly, ask for unlimited revisions, and ensure that your voice and understanding shine through in the final product."
+        },
+        {
+            "title": "Enjoy Affordability Of Our Engineering Skilled Writing",
+            "description": "We know you're a student and budget matters. That’s why we keep our pricing student-friendly—without compromising on quality. We also offer regular discounts to make our services even more accessible. Visit Skilled Writing today to grab your discount. Remember, strong engineering writing is just as important as strong calculations, and our affordable service ensures you get both."
+        }
+    ]
+},
         "English": {
             "page_title": "English skilled writing",
             "url": "english-skilled",
