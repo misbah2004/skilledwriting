@@ -50,7 +50,6 @@ const Contact = () => {
         email: '',
         pnum: '',
       });
-      // console.log("Form submitted successfully", data);
     } catch (error) {
       console.log("Form submit error", error);
     }finally{
