@@ -43,7 +43,7 @@ const Contact = () => {
       if(data.success){
         setSubmetSuccess(true);
       }
-      toast.success("Submit Sucvces Fully");
+      toast.success("Submit Successfully");
       setFormData({
         fname: '',
         lname: '',
