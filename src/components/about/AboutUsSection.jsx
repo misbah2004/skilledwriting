@@ -27,13 +27,13 @@ const AboutUsSection = ({ service }) => {
                       <h4>{section.title}</h4>
 
                       {Array.isArray(section.description) ? (
-                        <ul className="ps-3">
+                        <ul className="mt-2">
                           {section.description.map((item, i) => (
-                            <li className='mb-2 mt-2' key={i}>{item}</li>
+                            <li className='mb-2 mt-3 lh-base' key={i}>{item}</li>
                           ))}
                         </ul>
                       ) : (
-                        <p>{section.description}</p>
+                        <p className='mt-2'>{section.description}</p>
                       )}
                     </div>
                   ))

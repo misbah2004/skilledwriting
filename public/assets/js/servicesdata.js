@@ -1,11 +1,11 @@
 export const servicesData = 
     {
-        "skilled writing": {
-            "page_title": "Hire Online skilled writing The Stairway To A-Grades",
-            "url": "hire-online-skilled",
-            "statistics" : "Is there a stack of skilled waiting at your study table? skilled writing can help you complete them all through expert guidance!",
-            "content_sections": []
-        }, 
+        // "skilled writing": {
+        //     "page_title": "Hire Online skilled writing The Stairway To A-Grades",
+        //     "url": "hire-online-skilled",
+        //     "statistics" : "Is there a stack of skilled waiting at your study table? skilled writing can help you complete them all through expert guidance!",
+        //     "content_sections": []
+        // }, 
         "Dissertation Writing": {
             "page_title": "Dissertation skilled writing",
             "url": "dissertation-skilled-writing",
@@ -515,12 +515,12 @@ export const servicesData =
                 }
             ]
         },
-        "Academic Editing Services": {
-            "page_title": "Services for pre-submission and research communication to enhance your publication.",
-            "url": "services-for-pre-submission",
-            "statistics" : "",
-            "content_sections": []
-        },
+        // "Academic Editing Services": {
+        //     "page_title": "Services for pre-submission and research communication to enhance your publication.",
+        //     "url": "services-for-pre-submission",
+        //     "statistics" : "",
+        //     "content_sections": []
+        // },
         "Physics": {
             "page_title": "Physics skilled writing",
             "url": "physics-skilled",
@@ -912,7 +912,7 @@ export const servicesData =
             "description": "We know you're a student and budget matters. That’s why we keep our pricing student-friendly—without compromising on quality. We also offer regular discounts to make our services even more accessible. Visit Skilled Writing today to grab your discount. Remember, strong engineering writing is just as important as strong calculations, and our affordable service ensures you get both."
         }
     ]
-},
+        },
         "English": {
             "page_title": "English skilled writing",
             "url": "english-skilled",

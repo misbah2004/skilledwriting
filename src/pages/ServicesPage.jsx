@@ -27,14 +27,6 @@ const ServicesPage = () => {
   return (
     <>
       <HomeHeroSection service={service}/>
-      {/* <ServicesSection />
-      <ProjectSection />
-      <FaqsSection />
-      <SecuritySection />
-      <FeatureSection />
-      <BenefitsSection/>
-      <PricingPlanSection />
-      <TeamSection /> */}
       <AboutUsSection service={service} />
     </>
   );

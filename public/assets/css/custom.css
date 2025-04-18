@@ -1923,9 +1923,9 @@ header.main-header .header-sticky.active{
 /*** 	  10. What We Do css	  ***/
 /************************************/
 
-.our-security{
-	padding: 100px 0;
-}
+/* .our-security{
+	padding: 50px 0;
+} */
 
 .security-content-item{
 	margin-bottom: 40px;

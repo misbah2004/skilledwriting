@@ -49,13 +49,6 @@ const SecuritySection = () => {
                 className="security-content-item wow fadeInUp"
                 data-wow-delay="0.6s"
               >
-                {/* <h3>compliance and risk management:</h3> */}
-                {/* <p>
-                  compliance &amp; risk management continuously analyzes network
-                  traffic, user behavior, and system activity to detect and
-                  respond to potential potentials security threats threats as
-                  they occur.
-                </p> */}
               </div>
               {/* Security Content Item End */}
             </div>
